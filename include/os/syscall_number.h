@@ -1,0 +1,21 @@
+#ifndef OS_SYSCALL_NUMBER_H_
+#define OS_SYSCALL_NUMBER_H_
+
+#define IGNORE 0
+#define NUM_SYSCALLS 64
+
+/* define */
+#define SYSCALL_SLEEP 2
+
+#define SYSCALL_FUTEX_WAIT 10
+#define SYSCALL_FUTEX_WAKEUP 11
+
+#define SYSCALL_WRITE 20
+#define SYSCALL_READ 21
+#define SYSCALL_CURSOR 22
+#define SYSCALL_REFLUSH 23
+
+#define SYSCALL_GET_TIMEBASE 30
+#define SYSCALL_GET_TICK 31
+
+#endif
